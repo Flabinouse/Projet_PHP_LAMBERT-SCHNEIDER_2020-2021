@@ -1,0 +1,161 @@
+*{
+  font-family: arial;
+}
+nav {
+  text-align: center;
+  background-color: lightgrey;
+  width: 100%;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+nav li a {
+  display:inline-block;
+  padding:8px 8px 8px 8px;
+  border: none;
+  color:rgba(0, 0, 0, 0.5);
+  text-decoration:none;
+  text-transform:uppercase;
+  margin:0 1px 0 0;
+}
+nav li a:hover, nav li a:focus, nav li a:active,nav li.active a,
+    nav ul:hover li.active a:hover {
+    background-image: linear-gradient(grey 50px , #191A1E);
+  border: 2px ridge white;
+  padding-bottom: 10px;
+}
+nav ul:hover li.active a {
+    background:transparent;
+}
+
+header{
+  color :white;
+  padding: 1%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px inset yellow;
+}
+header h1{
+  text-decoration: overline;
+  font-size:40px;
+}
+nav{
+  color:black;
+}
+a{
+  color:black;
+}
+
+body{
+  background-image: url('images/IUT.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
+}
+
+.main{
+  padding:1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+ background-color: rgba(0, 0, 0, 0.7);
+  color : white;
+}
+.main h2{
+  text-align: center;
+}
+.main h1{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: -1px;
+}
+.main #text{
+  border: 5px inset white;
+  margin: 1%;
+  padding:8px 8px 8px 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px inset yellow;
+}
+.main #new{
+  background-image: linear-gradient(white 50px , #191A1E);
+  border: 2px ridge white;
+  padding:8px 8px 8px 8px;
+  text-decoration: none;
+}
+.main #new:hover{
+  background-image: linear-gradient(grey 50px , #191A1E);
+border: 2px ridge white;
+text-decoration: underline;
+}
+
+#titre{
+  color : white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: 5px inset yellow;
+  width: 20%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin : 2%
+
+}
+#titre a{
+  font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color : white;
+}
+#titre small{
+  text-decoration: overline;
+}
+#titre:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+textarea{
+  resize: none;
+}
+.espace{
+  margin-top :12%;
+}
+#page-container {
+  position: relative;
+}
+
+#HdP{
+  position: relative;
+  left: 87%;
+  top: 90%;
+  position: fixed;
+  background-color: RGBA( 0,  0,  0, 0.3);
+  padding: 10px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+#HdP:hover{
+  font-style: italic;
+  font-size: large;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+footer {
+  background-color:rgba(0, 0, 0, 0.9);
+  border-top: 10px ridge yellow;
+  color: white;
+  text-align: justify;
+  height: 2.5rem;
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  font-size: x-small;
+}
